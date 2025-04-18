@@ -1,0 +1,27 @@
+name: CI/CD
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 9
+      - name: Install & Build Front‑end
+        run: |
+          cd frontend
+          pnpm install
+          pnpm build
+      - name: Install & Build Back‑end
+        run: |
+          cd backend
+          pnpm install
+          pnpm run build --if-present
+      - name: Deploy (placeholder)
+        run: echo "Add Vercel & Railway deploy steps here"

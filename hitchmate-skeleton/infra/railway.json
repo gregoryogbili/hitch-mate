@@ -1,0 +1,11 @@
+{
+  "services": [
+    {
+      "name": "postgres",
+      "projectId": "REPLACE_ME",
+      "source": {
+        "image": "railway/postgres:15"
+      }
+    }
+  ]
+}
