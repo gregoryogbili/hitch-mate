@@ -8,3 +8,4 @@ This repository contains the **MVP skeleton** for the Hitch‑Mate platform:
 * **.github/**  – CI/CD pipelines
 
 > Generated automatically on 2025-04-17.
+Update: Trigger redeploy with correct author.
