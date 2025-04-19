@@ -1,4 +1,4 @@
-# Hitch‑Mate – AI Dating & Relationship Therapist
+ # Hitch‑Mate – AI Dating & Relationship Therapist
 
 This repository contains the **MVP skeleton** for the Hitch‑Mate platform:
 
